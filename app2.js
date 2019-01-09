@@ -11,3 +11,15 @@ var sayBye = function(){
 };
 
 sayBye();
+
+
+function callFunction(fun){
+    fun();
+}
+
+var functionCall = function () {
+    console.log('Function Call');
+};
+
+callFunction(functionCall);
+
